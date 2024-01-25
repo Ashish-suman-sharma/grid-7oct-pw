@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .custom-container {
     display: grid;
     grid-gap: 10px;
@@ -32,4 +33,40 @@
     grid-column: 2;
     grid-row: 2;
   }
+=======
+.custom-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+  }
+  
+  .custom-box {
+    background-color: bisque;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: black;
+  }
+  
+  .custom-boxa {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  
+  .custom-boxb {
+    grid-column: 3;
+    grid-row: 1 / 3;
+  }
+  
+  .custom-boxc {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .custom-boxd {
+    grid-column: 2;
+    grid-row: 2;
+  }
+>>>>>>> cd64ad53cbe1881194a1945141ce7e22dddd9c7d
   

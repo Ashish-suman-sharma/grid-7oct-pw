@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .custom-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -57,4 +58,65 @@
     grid-row-start: 2;
     grid-row-end: 4;
   }
+=======
+.custom-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .custom-photo {
+    position: relative;
+  }
+  
+  .custom-photo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .custom-photo.photo-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .custom-photo.photo-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .custom-photo.photo-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .custom-photo.photo-4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  
+  .custom-photo.photo-5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  
+  .custom-photo.photo-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+>>>>>>> cd64ad53cbe1881194a1945141ce7e22dddd9c7d
   

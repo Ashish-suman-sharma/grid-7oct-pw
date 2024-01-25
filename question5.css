@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .custom-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -10,4 +11,18 @@
     background-color: bisque;
     border: 1px solid black;
   }
+=======
+.custom-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    justify-items: center;
+  }
+  
+  .custom-container > div {
+    padding: 5px;
+    background-color: bisque;
+    border: 1px solid black;
+  }
+>>>>>>> cd64ad53cbe1881194a1945141ce7e22dddd9c7d
   

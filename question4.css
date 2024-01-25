@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 40px;
 }
@@ -33,4 +34,41 @@ body {
 
 .custom-box8 {
     order: 2;
+=======
+body {
+    margin: 40px;
+}
+
+.custom-item {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    order: 1;
+}
+
+.custom-item:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+}
+
+.custom-container {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 10px;
+}
+
+.custom-box1 {
+    order: 3;
+}
+
+.custom-box2 {
+    order: 6;
+}
+
+.custom-box8 {
+    order: 2;
+>>>>>>> cd64ad53cbe1881194a1945141ce7e22dddd9c7d
 }
