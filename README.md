@@ -2,4 +2,4 @@
 
 ##Question 1
 
-![question1 img](output screenshot\Screenshot 2024-01-25 150413.png)
+![question1 img](output%20screenshot/Screenshot%202024-01-25%20150413.png)
